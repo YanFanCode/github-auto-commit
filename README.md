@@ -1,3 +1,8 @@
+<!--
+ * @LastEditors: yanfan
+ * @LastEditTime: 2024-02-11 23:35:22
+-->
+
 # github-auto-commit
 
 Automated GitHub Action workflow for daily monitoring of commit activity across all associated repositories.
@@ -14,7 +19,7 @@ If not, it will auto commit in `dummy.txt` file and push to the repository.
 
 ## Usage
 
-1. Fork this repo.
+1. Clone this repo.
 2. Generate a new personal access token (`PAT`) with the `repo` scope.
 3. In the repository settings.
    1. Find the `Security` tab in the left.
