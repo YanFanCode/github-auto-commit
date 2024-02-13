@@ -2,7 +2,7 @@ name: Auto Commit
 
 on:
   schedule:
-    - cron: '50 9 * * *' # run at 17:50 in China time
+    - cron: '55 15 * * *' # run at 17:50 in China time
   workflow_dispatch:
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
           # Set custom timezone and other config by yourself.
 
           date_today=$(TZ='Asia/Shanghai' date -I) # Date part
-          time_start="${date_today}T20:00:00"
+          time_start="${date_today}T00:00:00"
           time_end="${date_today}T23:55:00"
           commit_message="Auto commit on $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')"
 
