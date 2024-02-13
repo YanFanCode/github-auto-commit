@@ -2,7 +2,7 @@ name: Auto Commit
 
 on:
   schedule:
-    - cron: '55 15 * * *' # run at 17:50 in China time
+    - cron: '55 15 * * *' # run at 23:55 in China time
   workflow_dispatch:
 
 jobs:
